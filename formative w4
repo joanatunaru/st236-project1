@@ -1,0 +1,17 @@
+def drawPic(n):
+    '''
+    Draws a picture
+        n = 0 draws the picture coded by Joana
+        n = 1 draws the picture coded by Siddarth
+        n = 2 draws the pic coded by Jasper
+    '''
+
+    if n == 0:
+        x = 'x'
+        for i in range(5):
+            print(' ' * (4-i) + '*' * (2*i+1))
+        for i in range(4):
+            print(' ' * (i+1) + '*' * (7-2*i))
+
+
+print(drawPic(0))
