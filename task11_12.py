@@ -3,6 +3,9 @@
 # Task 11
 
 def suggestMove(board):
+    '''
+    suggests a move from the list of valid moves
+    '''
     validMoves = findValidMoves(board)
     return validMoves[0]
 
